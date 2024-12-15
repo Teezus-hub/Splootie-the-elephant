@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Story of Splootie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .header-section {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .content-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px;
+        }
+        .content-section:nth-child(even) {
+            flex-direction: row-reverse;
+            background-color: #f9f9f9;
+        }
+        img {
+            width: 40%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+        p {
+            width: 40%;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .cta-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+        .footer-section {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="header-section" id="header">
+        <h1>Welcome to the Story of Splootie</h1>
+        <p>Hello, I'm Splootie, the Christmas Elephant. Here is my story of how I came to be in your house.</p>
+        <a href="#section1" class="cta-button">Follow My Story</a>
+    </section>
+
+    <!-- Content Sections -->
+    <section class="content-section" id="section1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        <img src="placeholder1.jpg" alt="Placeholder Image 1">
+        <a href="#section2" class="cta-button">Next</a>
+    </section>
+    
+    <section class="content-section" id="section2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        <img src="placeholder2.jpg" alt="Placeholder Image 2">
+        <a href="#section3" class="cta-button">Next</a>
+    </section>
+
+    <section class="content-section" id="section3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        <img src="placeholder3.jpg" alt="Placeholder Image 3">
+        <a href="#section4" class="cta-button">Next</a>
+    </section>
+    
+    <!-- Add more sections as required -->
+
+    <!-- Footer Section -->
+    <section class="footer-section" id="footer">
+        <p>This is the conclusion of Splootie's story. Thanks for reading!</p>
+    </section>
+</body>
+</html>
